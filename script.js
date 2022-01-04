@@ -7,7 +7,17 @@ $(document).ready(function(){
                 scrollTop:$(hash).offset().top
             },1000,function(){
                 window.location.hash=hash;
-            })
+            });
         }
+    });
+
+    $(function(){
+        $(".btn-group-fab").on("click" , function(){
+            $(".btn-group-fab").toggleClass("active")
+
+        })
+       
     })
 })
+
+
