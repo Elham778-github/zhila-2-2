@@ -25,14 +25,25 @@
     position: relative;
     border-radius: 1.8rem;
     font-size: 1rem;
-    box-shadow: 0 0 3rem 0.5rem pink ;
+    box-shadow: 0 0 3rem 0.5rem #6CBBA9 ;
     
 }
 .toggle-btn{
     position: relative;
-    padding: 0.5rem 1.8rem;
+    padding: 0.6rem 1.8rem;
+    background: transparent;
     border: 0;   
+    outline: none;
     cursor: pointer;
-
 }
+#account-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    border-radius: 1.8rem;
+background-image: linear-gradient(to right, #6CBBA9, #5EB4D9);
+}
+
 
