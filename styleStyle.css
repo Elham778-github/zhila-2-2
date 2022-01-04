@@ -312,7 +312,14 @@ footer i:hover{
     margin-right: -16px;
 }
 .btn-group-fab .active .btn-sub:nth-child(2){
+    bottom: 60px;
 
+}
+.btn-group-fab .active .btn-sub:nth-child(3){
+    bottom: 110;
+}
+.btn-group-fab .active .btn-sub:nth-child(4){
+    bottom: 160px;
 }
 
 /* end fav icons ------------- */
