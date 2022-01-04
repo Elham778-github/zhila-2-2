@@ -8,6 +8,31 @@
     height: 100%;
     width: 100%;
     background-image:url("../phptos/photos/zhila.necklace.jpeg") ;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background-color: white;
+    margin: 7% auto;
+    padding:  0.3rem ;
+}
+.button-box{
+    width: 220px;
+    margin: 2.2rem auto;
+    position: relative;
+    border-radius: 1.8rem;
+    font-size: 1rem;
+    box-shadow: 0 0 3rem 0.5rem pink ;
+    
+}
+.toggle-btn{
+    position: relative;
+    padding: 0.5rem 1.8rem;
+    border: 0;   
+    cursor: pointer;
+
+}
+
