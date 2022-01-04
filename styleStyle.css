@@ -282,3 +282,37 @@ footer i:hover{
 
 }
 /* end footer---------------- */
+
+/* start fav icons ------------- */
+.btn-group-fab {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: auto;
+
+}
+.btn-group-fab .btn{
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+.btn-group-fab .btn-main{  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+    line-height:2 ;
+}
+.btn-group-fab .btn-sub{
+    z-index: 1;
+    right: 50%;
+    bottom: 1px;
+    margin-right: -16px;
+}
+.btn-group-fab .active .btn-sub:nth-child(2){
+
+}
+
+/* end fav icons ------------- */
