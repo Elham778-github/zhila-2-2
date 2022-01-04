@@ -68,7 +68,7 @@ width: 100%;
 height: 100%;
 background-size: cover ;
 background-position: center center;
-background-image: url('phptos/photos/zhila-handmade.jpeg');
+background-image: url('../phptos/photos/zhila-handmade.jpeg');
 }
 .caption{
     width: 100%;
@@ -188,7 +188,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background-image: url("frankfurt-Guthe.jpeg");
+background-image: url("../phptos/photos/frankfurt-Guthe.jpeg");
 background-size: cover;
 background-position: center center;
 
