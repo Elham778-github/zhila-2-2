@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.main-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image:url("../phptos/photos/zhila.necklace.jpeg") ;
+    background-position: center;
+    background-size: cover;
+}
