@@ -11,13 +11,23 @@ $(document).ready(function(){
         }
     });
 
-    $(function(){
-        $(".btn-group-fab").on("click" , function(){
-            $(".btn-group-fab").toggleClass("active")
+// toggle fav icons ........................   
+ $(function(){
+    $(".btn-group-fab [data-toggle='tooltip']").tooltip();
+    $(".btn-group-fab").on("click" , function(){
+        $(".btn-group-fab").toggleClass("active");
 
+    });
+
+
+ });  
+
+// alert lets go ..........................
+        $(".btn-start").on("click", function(){
+            alert("you clicked on lets go")
         })
        
-    })
-})
+   
+});
 
 
