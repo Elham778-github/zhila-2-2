@@ -17,8 +17,8 @@
         <div class="form-box">
             <div class="button-box">
                 <div id="account-btn"></div>
-                <button type="button" class="toggle-btn">Rgister</button>
-                <button type="button" class="toggle-btn">Login</button>
+                <button type="button" class="toggle-btn" onclick="Login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="Register()">Register</button>
             </div>
             <div class="social-icons">
                 <i class="fab fa-facebook-square"></i>
@@ -26,18 +26,35 @@
                 <i class="fab fa-youtube"></i>
             </div>
             <form id="login" action="#" class="input-group">
-                <input type="text" class="input-field" placeholder="Username">
+                <input type="text" class="input-field" placeholder="Username" >
                 <input type="text" class="input-field" placeholder="Password">
-                <input type="checkbox" class="check-box" > remembr me
-                <button type="submit" class="submit-btn">login</button>
-            </form>
-        </div>
-    </div>
-
-
-
-
-    <script src="../js/RregisterLogin.js"></script>
- 
-</body>
-</html>
+                <div class="check-box">
+                    <input type="checkbox" class="" id="checkbox" > 
+                    remember this acount</div>
+                    <button type="submit" class="submit-btn">login</button>
+                </form>
+                <form id="register" action="#" class="input-group">
+                    <input type="text" class="input-field" placeholder="Username">
+                    <input type="text" class="input-field" placeholder="Email">
+                    <input type="text" class="input-field" placeholder="Password">
+                    <div class="check-box">
+                        <input type="checkbox" class="" id="checkbox" > 
+                        I am not robot</div>
+                        <button type="submit" class="submit-btn">login</button>
+                    </form>
+                    
+                    
+                    
+                    
+                </div>
+                <a href="/Users/elham/zhila-2/index.html"><i class="fas fa-home home-page fa-3x " ></i> </a>
+                
+                
+            </div>
+            
+            
+            
+            <script src="../js/RregisterLogin.js"></script>
+            
+        </body>
+        </html>
